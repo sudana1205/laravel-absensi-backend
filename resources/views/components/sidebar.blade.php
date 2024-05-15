@@ -45,6 +45,12 @@
                      <span>Users</span></a>
 
             </li>
+            <li class="nav-item">
+                <a href="{{ route('companies.show',1/**angka satu dari value company find(1) di file CompanyController.php**/) }}" class="nav-link "><i class="fas fa-columns"></i>
+                    <span>Company</span></a>
+
+            </li>
+
 
 
     </aside>

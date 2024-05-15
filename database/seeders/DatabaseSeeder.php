@@ -21,5 +21,18 @@ class DatabaseSeeder extends Seeder
             'email' => 'sudana@gmail.com',
             'password' => Hash::make('12345678'),
         ]);
+
+        //data dumy for company
+
+        \App\Models\Company::create([
+            'name'=> 'PT. SELALU SUKSES',
+            'email' => 'saya@selalusukses.com',
+            'address' => 'Jln. Kesuksesan Abadi',
+            'latitude' => '-7.747033',
+            'longitude' => '110.3553998',
+            'radius_km' => '0.5',
+            'time_in' => '08:00',
+            'time_out' => '17:00',
+        ]);
     }
 }
