@@ -43,15 +43,18 @@
             <li class="nav-item">
                 <a href="{{ route('users.index') }}" class="nav-link "><i class="fas fa-columns"></i>
                      <span>Users</span></a>
-
             </li>
             <li class="nav-item">
                 <a href="{{ route('companies.show',1/**angka satu dari value company find(1) di file CompanyController.php**/) }}" class="nav-link "><i class="fas fa-columns"></i>
                     <span>Company</span></a>
-
             </li>
-
-
-
+            <li class="nav-item">
+                <a href="{{ route('attendances.index') }}" class="nav-link "><i class="fas fa-columns"></i>
+                    <span>Attendances</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ route('permissions.index') }}" class="nav-link "><i class="fas fa-columns"></i>
+                    <span>Permission</span></a>
+            </li>
     </aside>
 </div>
